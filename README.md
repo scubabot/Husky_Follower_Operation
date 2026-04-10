@@ -160,12 +160,6 @@ Parameters:
 - `target_dist` — Target distance to maintain from the detected person (meters).
 - `mounting_offset` — Distance from robot center to the camera mount point.
 
-### `thermal_yolo_detector`
-
-| | Topic | Message Type |
-|---|---|---|
-| Subscribes | *(your Boson image topic)* | `sensor_msgs/Image` |
-| Publishes | *(detection results topic)* | *(update as needed)* |
 
 ## Troubleshooting
 
